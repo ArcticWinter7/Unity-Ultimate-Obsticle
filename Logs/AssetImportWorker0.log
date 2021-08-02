@@ -165,3 +165,85 @@ Received Import Request.
 Start importing Assets/Materials/Player_material.mat using Guid(8fcd17f9d0aecad4788f8174eb6043ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc69714bc181a37e15dbd565b475e0a') in 0.045457 seconds 
   Import took 0.052181 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017723 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.805 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2806ms)
+		BeginReloadAssembly (340ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (107ms)
+		EndReloadAssembly (2267ms)
+			LoadAssemblies (256ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (791ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (113ms)
+			SetupLoadedEditorAssemblies (851ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (235ms)
+				ProcessInitializeOnLoadAttributes (563ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1385 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.1 MB.
+System memory in use after: 68.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1867.
+Total: 4.514400 ms (FindLiveObjects: 0.290800 ms CreateObjectMapping: 0.094100 ms MarkObjects: 4.056200 ms  DeleteObjects: 0.070900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 819.710828 seconds.
+  path: Assets/Materials/Floor_material.mat
+  artifactKey: Guid(ddc1bedef7fc13845b96e69ab9820242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Floor_material.mat using Guid(ddc1bedef7fc13845b96e69ab9820242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e298a1906e30c44578be026c2f19c9e') in 0.147739 seconds 
+  Import took 0.153460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/Materials/Player_material.mat
+  artifactKey: Guid(8fcd17f9d0aecad4788f8174eb6043ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player_material.mat using Guid(8fcd17f9d0aecad4788f8174eb6043ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfb272df6c8eaf16c2650c495eaa36e') in 0.038374 seconds 
+  Import took 0.045513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/Materials/Level_material.mat
+  artifactKey: Guid(e238d3fd45fb2964fab08b962727ac7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level_material.mat using Guid(e238d3fd45fb2964fab08b962727ac7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c7bcdca6f7882e9900acd9fb897cb0') in 0.057971 seconds 
+  Import took 0.066471 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
